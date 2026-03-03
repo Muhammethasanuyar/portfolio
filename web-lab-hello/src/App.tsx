@@ -44,18 +44,23 @@ function App() {
                   yazilim pratiklerine oncelik veriyorum.
                 </p>
 
-                <h3>Kullandigim teknolojiler</h3>
-                <ul className="tech-list">
-                  <li>React &amp; TypeScript</li>
-                  <li>Node.js</li>
-                  <li>PHP &amp; Laravel</li>
-                  <li>MySQL</li>
-                  <li>Python</li>
-                  <li>C#</li>
-                  <li>Java</li>
-                  <li>FastAPI</li>
-                  <li>gRPC &amp; Protocol Buffers</li>
-                </ul>
+            <h3>Kullandigim teknolojiler</h3>
+            <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+              <li>PHP &amp; Laravel</li>
+              <li>MySQL</li>
+              <li>Python</li>
+              <li>C#</li>
+              <li>Java</li>
+              <li>FastAPI</li>
+              <li>gRPC &amp; Protocol Buffers</li>
+              <li>Git</li>
+            </ul>
               </div>
 
               <aside className="profile-card" aria-label="Profil bilgileri">
