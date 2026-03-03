@@ -1,34 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="app">
+      <header className="hero">
+        <h1>Web Tasarimi ve Programlama</h1>
+        <h2>LAB -1</h2>
+      </header>
+
+      <main className="content">
+        <section className="card">
+          <h3>Ogrenci Bilgileri</h3>
+          <p>
+            <strong>Ad Soyad:</strong> Muhammet Hasan Uyar
+          </p>
+          <p>
+            <strong>Ogrenci No:</strong> 000000000
+          </p>
+          <p>
+            <strong>Bolum:</strong> (Bolumunu buraya yaz)
+          </p>
+        </section>
+
+        <section className="card">
+          <h3>Kisa Tanitim</h3>
+          <p>
+            Modern web teknolojilerini ogrenmek ve portfoyumu gelistirmek icin bu
+            dersi aliyorum.
+          </p>
+          <p>
+            Bos zamanlarimda yeni teknolojiler denemeyi ve kisisel projeler
+            gelistirmeyi seviyorum.
+          </p>
+        </section>
+      </main>
+    </div>
   )
 }
 
