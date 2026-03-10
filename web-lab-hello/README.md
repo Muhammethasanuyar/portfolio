@@ -62,6 +62,19 @@ npm run dev
 
 Ardindan tarayicida `http://localhost:5173` adresini ac.
 
+## Ekran Goruntuleri
+
+Portfolyo sayfasi mobil, tablet ve masaustu gorunumlerinde responsive calismaktadir.
+
+**Mobil (375px):**
+![Mobil gorunum](screenshots/mobile.jpeg)
+
+**Tablet (768px):**
+![Tablet gorunum](screenshots/tablet.jpeg)
+
+**Masaustu (1280px):**
+![Masaustu gorunum](screenshots/pc.jpeg)
+
 ## Erisilebilirlik (a11y)
 
 Bu proje, LAB-2’de vurgulanan temel erisilebilirlik ilkelerini uygular:
